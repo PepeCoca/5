@@ -14,9 +14,12 @@ body{
 
     .grid{
 	display:grid;
-    grid-template-columns:repeat(5,1fr 1fr);
+    grid-template-columns:repeat(5,1fr 2fr);
     grid-column-gap:10px;
     grid-row-gap:5px;
 
 
-}  
+}
+.grid>div:nth-child(odd){
+	background-color: #ff6666
+}
